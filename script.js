@@ -41,8 +41,19 @@
         document.getElementById("button-add-over").addEventListener("click", addBall);
         document.getElementById("button-minus-over").addEventListener("click", minusBall);
 
-        document.getElementById("button-add-run").addEventListener("click", function () {
+        document.getElementById("button-add-one").addEventListener("click", function () {
             runCount++;
+            addBall();
+            updateDisplay();
+        });
+        document.getElementById("button-add-two").addEventListener("click", function () {
+            runCount+= 2;
+            addBall();
+            updateDisplay();
+        });
+        document.getElementById("button-add-three").addEventListener("click", function () {
+            runCount+= 3;   
+            addBall(); 
             updateDisplay();
         });
         document.getElementById("button-minus-run").addEventListener("click", function () {

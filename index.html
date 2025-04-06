@@ -25,6 +25,13 @@
     </div>
     <div class="container-fluid">
         <div class="rows">
+            <div class="text-center">
+                <h1><b>Total Runs</b></h1>
+                <h1><b> <span id="run-count">0</span></b></h1>
+                <h1><b>
+                        <button id="button-minus-run" class="btn btn-danger"><i class="bi bi-dash-circle"></i></button>
+                    </b></h1>
+            </div>
             <div class="cols">
                 <table class="table font table-bordered table-striped table-hover text-center">
                     <tr>
@@ -56,15 +63,16 @@
                     </tr>
                     <tr>
                         <td>
-                            <span>Runs: </span>
+                            <span>Options Runs: </span>
                         </td>
                         <td>
                             <span>
-                                <button id="button-minus-run" class="btn btn-danger"><i
-                                        class="bi bi-dash-circle"></i></button>
-                                <span id="run-count">0</span>
-                                <button class="btn btn-success" id="button-add-run"><i
-                                        class="bi bi-plus-square-fill"></i></button>
+                                <button class="btn btn-dark" id="button-add-one"><i
+                                        class="bi bi-1-circle-fill"></i></button>
+                                <button class="btn btn-dark" id="button-add-two"><i
+                                        class="bi bi-2-circle-fill"></i></button>
+                                <button class="btn btn-dark" id="button-add-three"><i
+                                        class="bi bi-3-circle-fill"></i></button>
                             </span>
                         </td>
                     </tr>
