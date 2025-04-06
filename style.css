@@ -1,79 +1,78 @@
 body {
     background-color: #f8f9fa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  }
 
-h1 {
+  h1 {
     padding: 15px 0;
     font-size: 2.5rem;
-}
+  }
 
-.table th, .table td {
+  .table th, .table td {
     vertical-align: middle;
-}
+  }
 
-.font-size {
+  .font-size {
     font-size: 1.5rem;
-}
+  }
 
-.font {
+  .font {
     font-size: 1.25rem;
-}
+  }
 
-/* Responsive Layout Adjustments */
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     h1 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
 
     .table th, .table td {
-        font-size: 1rem;
-        padding: 10px;
+      font-size: 1rem;
+      padding: 10px;
     }
 
     .font-size {
-        font-size: 1.2rem;
+      font-size: 1.2rem;
     }
 
     .font {
-        font-size: 1rem;
+      font-size: 1rem;
     }
 
-    #button-four, #button-six, 
-    #button-add-one, #button-add-two, 
-    #button-add-three, #button-add-over, 
-    #button-minus-over, #button-add-wicket, 
+    #button-four, #button-six,
+    #button-add-one, #button-add-two,
+    #button-add-three, #button-add-over,
+    #button-minus-over, #button-add-wicket,
     #button-minus-wicket {
-        margin: 4px;
-        padding: 8px 12px;
-        font-size: 1rem;
+      margin: 4px;
+      padding: 8px 12px;
+      font-size: 1rem;
     }
 
-    #reset {
-        font-size: 1rem;
-        margin-top: 10px;
+    #reset, #undo-label {
+      font-size: 1rem;
+      margin-top: 10px;
     }
 
     .wickets {
-        text-align: center;
+      text-align: center;
     }
-}
+  }
 
-@media (max-width: 576px) {
+  @media (max-width: 576px) {
     .table {
-        font-size: 0.9rem;
+      font-size: 0.9rem;
     }
 
     h2 {
-        font-size: 1.25rem;
+      font-size: 1.25rem;
     }
 
     .btn {
-        padding: 6px 10px;
-        font-size: 0.9rem;
+      padding: 6px 10px;
+      font-size: 0.9rem;
     }
 
-    #reset {
-        font-size: 0.9rem;
+    #reset, #undo-label {
+      font-size: 0.9rem;
     }
-}
+  }
