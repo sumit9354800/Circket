@@ -25,33 +25,42 @@
     </div>
     <div class="container-fluid">
         <div class="rows">
-            <div class="text-center">
-                <h2><b>Total Score</b></h2>
-                <h2><b> <span id="run-count">0</span></b></h2>
-                <h2><b>
-                        <button id="button-minus-run" class="btn btn-danger"><i class="bi bi-dash-circle"></i></button>
-                    </b></h2>
-            </div>
+            <table class="text-center table font table-bordered table-striped table-hover text-center">
+                <tr>
+                    <th>
+                        <h2><b>Total Score</b></h2>
+                        <h2><b> <span id="run-count">0</span></b></h2>
+                    </th>
+                    <th>
+                        <h2><b>Over</b></h2>
+                        <h2><b><span id="over-count">0</span></b></h2>
+                    </th>
+                    <th>
+                        <h2><b>Wickets</b></h2>
+                        <h2><b> <span id="wicket-count">0</span></b></h2>
+                    </th>
+                </tr>
+            </table>
             <div class="cols">
                 <table class="table font table-bordered table-striped table-hover text-center">
                     <tr>
-                        <td>
+                        <th>
                             <span>Over: </span>
-                        </td>
+                        </th>
                         <td>
                             <span>
+
                                 <button id="button-minus-over" class="btn btn-danger"><i
                                         class="bi bi-dash-circle"></i></button>
-                                <span id="over-count">0</span>
                                 <button class="btn btn-success" id="button-add-over"><i
                                         class="bi bi-plus-square-fill"></i></button>
                             </span>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <th>
                             <span>Four and Six: </span>
-                        </td>
+                        </th>
                         <td class="gap">
                             <button id="button-four" class="btn btn-warning font-size">
                                 <span id="add-four">4</span>
@@ -62,9 +71,9 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <th>
                             <span>Options Runs: </span>
-                        </td>
+                        </th>
                         <td>
                             <span>
                                 <button class="btn btn-dark" id="button-add-one"><i
@@ -77,24 +86,19 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <th>
                             <span>Wickets: </span>
-                        </td>
+                        </th>
                         <td>
                             <span>
                                 <button id="button-minus-wicket" class="btn btn-danger"><i
                                         class="bi bi-dash-circle"></i></button>
-                                <span id="wicket-count">0</span>
                                 <button class="btn btn-success" id="button-add-wicket"><i
                                         class="bi bi-plus-square-fill"></i></button>
                             </span>
                         </td>
                     </tr>
                 </table>
-
-                <div class="runs font">
-
-                </div>
                 <div class="wickets font">
                     <div id="restart">
                         <button id="button-reset" class="btn btn-warning"><i class="bi bi-arrow-clockwise"></i></button>
