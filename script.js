@@ -1,7 +1,5 @@
 
-        // Initialize variables
-        // Initialize variables
-        let over = 1; // Full overs
+        let over = 0; // Full overs
         let ball = 0; // Balls in current over
         let runCount = 0;
         let wicketCount = 0;

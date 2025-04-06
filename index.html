@@ -26,42 +26,66 @@
     <div class="container-fluid">
         <div class="rows">
             <div class="cols">
-                <div class="overs font">
+                <table class="table font table-bordered table-striped table-hover text-center">
+                    <tr>
+                        <td>
+                            <span>Over: </span>
+                        </td>
+                        <td>
+                            <span>
+                                <button id="button-minus-over" class="btn btn-danger"><i
+                                        class="bi bi-dash-circle"></i></button>
+                                <span id="over-count">0</span>
+                                <button class="btn btn-success" id="button-add-over"><i
+                                        class="bi bi-plus-square-fill"></i></button>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>four and six: </span>
+                        </td>
+                        <td>
+                            <button id="button-four" class="btn btn-warning font-size">
+                                <span id="add-four">4</span>
+                            </button>
+                            <button id="button-six" class="btn btn-primary font-size">
+                                <span id="add-six">6</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Runs: </span>
+                        </td>
+                        <td>
+                            <span>
+                                <button id="button-minus-run" class="btn btn-danger"><i
+                                        class="bi bi-dash-circle"></i></button>
+                                <span id="run-count">0</span>
+                                <button class="btn btn-success" id="button-add-run"><i
+                                        class="bi bi-plus-square-fill"></i></button>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Wickets: </span>
+                        </td>
+                        <td>
+                            <span>
+                                <button id="button-minus-wicket" class="btn btn-danger"><i
+                                        class="bi bi-dash-circle"></i></button>
+                                <span id="wicket-count">0</span>
+                                <button class="btn btn-success" id="button-add-wicket"><i
+                                        class="bi bi-plus-square-fill"></i></button>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
 
-                    <div>Over </div>
-                    <span>
-                        <button id="button-minus-over" class="btn btn-danger"><i class="bi bi-dash-circle"></i></button>
-                        <span id="over-count">1</span>
-                        <button class="btn btn-success" id="button-add-over"><i
-                                class="bi bi-plus-square-fill"></i></button>
-                    </span>
-                </div>
-                <div class="overs font">
-                    <button id="button-four" class="btn btn-warning font-size">
-                        <span id="add-four">4</span>
-                    </button>
-                    <button id="button-six" class="btn btn-primary font-size">
-                        <span id="add-six">6</span>
-                    </button>
-                </div>
                 <div class="runs font">
-                    <div>Runs </div>
-                    <span>
-                        <button id="button-minus-run" class="btn btn-danger"><i class="bi bi-dash-circle"></i></button>
-                        <span id="run-count">0</span>
-                        <button class="btn btn-success" id="button-add-run"><i
-                                class="bi bi-plus-square-fill"></i></button>
-                    </span>
-                </div>
-                <div class="wickets font">
-                    <div>Wickets </div>
-                    <span>
-                        <button id="button-minus-wicket" class="btn btn-danger"><i
-                                class="bi bi-dash-circle"></i></button>
-                        <span id="wicket-count">0</span>
-                        <button class="btn btn-success" id="button-add-wicket"><i
-                                class="bi bi-plus-square-fill"></i></button>
-                    </span>
+
                 </div>
                 <div class="wickets font">
                     <div id="restart">
