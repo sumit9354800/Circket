@@ -66,7 +66,7 @@
             addBall();
         });
         document.getElementById("button-reset").addEventListener("click", function () {
-            over = 1;
+            over = 0;
             ball = 0;
             runCount = 0;
             wicketCount = 0;
