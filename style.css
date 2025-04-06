@@ -23,3 +23,8 @@ table{
     width: 100%;
     margin: 20px 0;
 }
+.gap{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
