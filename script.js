@@ -62,6 +62,7 @@
         });
         document.getElementById("button-add-wicket").addEventListener("click", function () {
             wicketCount++;
+            addBall();
             updateDisplay();
         });
         document.getElementById("button-minus-wicket").addEventListener("click", function () {
